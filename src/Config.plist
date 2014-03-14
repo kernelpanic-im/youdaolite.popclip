@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,200}$</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
+			<key>Shell Script File</key>
+			<string>youdaolite.py</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Youdao Dictionary</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Youdao Dictionary Popclip Extension</string>
+	<key>Extension Identifier</key>
+	<string>im.kernelpanic.popclip.extension.currency</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Youdao Dictionary</string>
+	</dict>
+	<key>Required Software Version</key>
+	<integer>601</integer>
+</dict>
+</plist>
