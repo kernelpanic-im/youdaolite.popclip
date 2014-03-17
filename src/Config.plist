@@ -25,7 +25,7 @@
 	<key>Extension Description</key>
 	<string>Youdao Dictionary Popclip Extension</string>
 	<key>Extension Identifier</key>
-	<string>im.kernelpanic.popclip.extension.currency</string>
+	<string>im.kernelpanic.popclip.extension.youdaolite</string>
 	<key>Extension Name</key>
 	<dict>
 		<key>en</key>
