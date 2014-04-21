@@ -14,6 +14,7 @@ done
 
 zip -r $EXT_FILENAME $EXT_FOLDER
 
+mkdir -pv ../build
 cp -Rf $EXT_FILENAME ../build
 
 rm -rf $EXT_FOLDER $EXT_FILENAME
