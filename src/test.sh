@@ -18,5 +18,5 @@ COUNT=${#TEST_INPUT[@]}
 for ((i=0; i<$COUNT; i++)); do
     export POPCLIP_TEXT="${TEST_INPUT[$i]}"
     printf "test $POPCLIP_TEXT:"
-    python youdaolite.py
+    python3 youdaolite.py
 done
